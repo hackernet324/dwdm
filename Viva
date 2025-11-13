@@ -1,0 +1,328 @@
+🌟 Basic Viva Questions
+
+1. What is Data Mining?
+
+➡ Data Mining is the process of finding useful patterns, relationships, and knowledge from large amounts of data.
+
+
+---
+
+2. What is Knowledge Discovery in Databases (KDD)?
+
+➡ KDD is the overall process of converting raw data into useful information — Data Mining is one of its steps.
+
+
+---
+
+3. What are the steps in KDD?
+
+➡
+
+1. Data Cleaning
+
+
+2. Data Integration
+
+
+3. Data Selection
+
+
+4. Data Transformation
+
+
+5. Data Mining
+
+
+6. Pattern Evaluation
+
+
+7. Knowledge Presentation
+
+
+
+
+---
+
+4. What are the main tasks of data mining?
+
+➡ Classification, Clustering, Association, Regression, and Prediction.
+
+
+---
+
+5. What is the difference between classification and clustering?
+
+➡
+
+Classification: Supervised learning (uses labeled data).
+
+Clustering: Unsupervised learning (no labels).
+
+
+
+---
+
+6. What is supervised learning?
+
+➡ Learning from labeled data where the output class is known.
+
+
+---
+
+7. What is unsupervised learning?
+
+➡ Learning patterns or structures from data where no labels are given.
+
+
+---
+
+8. What is the Decision Tree?
+
+➡ A tree-like model used for classification or prediction by splitting data based on attributes.
+
+
+---
+
+9. What is the J48 algorithm?
+
+➡ J48 is WEKA’s version of the C4.5 decision tree algorithm used for classification.
+
+
+---
+
+10. What is the ID3 algorithm?
+
+➡ ID3 builds a decision tree using Information Gain to choose the best attribute for splitting.
+
+
+---
+
+11. What is Information Gain?
+
+➡ It measures how much an attribute reduces the uncertainty (entropy) about the target class.
+
+
+---
+
+12. What is Entropy?
+
+➡ Entropy measures the impurity or randomness in the data.
+
+
+---
+
+13. What is k-Nearest Neighbor (k-NN)?
+
+➡ A simple algorithm that classifies a new instance based on the majority class of its k nearest data points.
+
+
+---
+
+14. What is Naive Bayes?
+
+➡ A probabilistic classifier based on Bayes’ theorem assuming attributes are independent.
+
+
+---
+
+15. What is Clustering?
+
+➡ Grouping similar data points into clusters without using predefined labels.
+
+
+---
+
+16. What is k-Means algorithm?
+
+➡ It divides data into k clusters based on distance to the cluster centroids.
+
+
+---
+
+17. What is the Apriori algorithm?
+
+➡ An association rule mining algorithm that finds frequent itemsets using support and confidence.
+
+
+---
+
+18. What is the FP-Growth algorithm?
+
+➡ A faster method than Apriori that uses a tree structure (FP-tree) to find frequent patterns.
+
+
+---
+
+19. What are Support and Confidence?
+
+➡
+
+Support: Frequency of an itemset in the dataset.
+
+Confidence: Likelihood that rule “A → B” is true.
+
+
+
+---
+
+20. What is Feature Selection?
+
+➡ Choosing the most relevant attributes to improve model performance and reduce computation.
+
+
+---
+
+21. What is Data Preprocessing?
+
+➡ Cleaning and transforming raw data before applying machine learning algorithms.
+
+
+---
+
+22. What is Normalization?
+
+➡ Scaling data values to a specific range (usually 0–1).
+
+
+---
+
+23. What is Standardization?
+
+➡ Rescaling data so that it has mean = 0 and standard deviation = 1.
+
+
+---
+
+24. What is Discretization?
+
+➡ Converting continuous (numeric) data into discrete categories or intervals.
+
+
+---
+
+25. What is Missing Value Treatment?
+
+➡ Replacing missing data with mean, median, or mode values.
+
+
+---
+
+26. What is the use of WEKA tool?
+
+➡ WEKA is used for data preprocessing, classification, clustering, association rule mining, and visualization.
+
+
+---
+
+27. What is the difference between training and testing data?
+
+➡
+
+Training data: Used to build the model.
+
+Testing data: Used to check the accuracy of the model.
+
+
+
+---
+
+28. What is Cross-Validation?
+
+➡ A method to test model performance by dividing data into k folds (usually 10) for fair evaluation.
+
+
+---
+
+29. What is Accuracy?
+
+➡ The ratio of correctly predicted instances to the total instances.
+
+
+---
+
+30. What is Precision and Recall?
+
+➡
+
+Precision: Correct positive predictions out of all positive predictions.
+
+Recall: Correct positive predictions out of all actual positives.
+
+
+
+---
+
+31. What is a Neural Network?
+
+➡ A computational model inspired by the human brain that learns patterns through neurons and weights.
+
+
+---
+
+32. What is Backpropagation?
+
+➡ The learning algorithm in neural networks that adjusts weights to minimize error.
+
+
+---
+
+33. What is the main advantage of Decision Trees?
+
+➡ Easy to understand and interpret; handles both numeric and categorical data.
+
+
+---
+
+34. What are Association Rules?
+
+➡ Rules that show relationships between items in a transaction (e.g., “If Milk and Bread → Butter”).
+
+
+---
+
+35. What is a Cluster Centroid?
+
+➡ The mean position of all the data points in a cluster.
+
+
+---
+
+36. What is the main difference between Apriori and FP-Growth?
+
+➡ Apriori generates candidate sets; FP-Growth builds a tree structure — thus faster and memory efficient.
+
+
+---
+
+37. What is a Confusion Matrix?
+
+➡ A table showing correct and incorrect predictions for each class.
+
+
+---
+
+38. What is Overfitting?
+
+➡ When a model performs well on training data but poorly on unseen data.
+
+
+---
+
+39. What is Underfitting?
+
+➡ When a model is too simple and cannot capture data patterns properly.
+
+
+---
+
+40. What are the advantages of using WEKA?
+
+➡
+
+Easy GUI interface
+
+Many algorithms built-in
+
+Visualization support
+
+Works on ARFF, CSV formats
